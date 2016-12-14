@@ -1,6 +1,6 @@
 module AtYourService
   extend ActiveSupport::Concern
-  
+
   def self.with(options = {})
    @@strict = options.fetch(:strict, false)
    return self
@@ -12,7 +12,7 @@ module AtYourService
     else
       include Virtus.model
     end
-    
+
     def self.call(*args)
       new(*args).call
     end
