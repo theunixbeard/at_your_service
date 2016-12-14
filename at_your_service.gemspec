@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ben Gelsey"]
   spec.email         = ["ben@bengelsey.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = ""
+  spec.summary       = %q{At Your Service --- Service Objects made easy (& works great w/ Rails)}
+  spec.description   = %q{Model / View / Controller isn't enough for today's complex web applications. Encapsulate your business logic in Service objects so that when you write a piece of business logic, you only write it once.}
+  spec.homepage      = "https://github.com/theunixbeard/at_your_service"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
