@@ -1,10 +1,10 @@
 class TestNonStrictService
-  include AtYourService.with
+  include AtYourService.with(strict: false)
 
   attribute :test, Boolean
 
-  TEST_ERROR = "Test example error"
-  TEST_SUCCESS = "Test example success"
+  TEST_ERROR = 'Test example error'
+  TEST_SUCCESS = 'Test example success'
 
   def call
     if test
